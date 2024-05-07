@@ -1,0 +1,214 @@
+body {
+    background-color: #f1faee;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.site-wrapper {
+    max-width: 90rem;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+li {
+    list-style: none;   
+}
+
+/* LINKS STYLE */
+
+a,
+a:visited {
+    text-decoration: none;
+    color: #000194;
+}
+
+a:hover,
+a:focus {
+    color: black;
+}
+
+a:active {
+    color: #6c584c;
+}
+
+
+/* HEADER & NAV */
+
+.logo {
+    margin: 1rem;
+    width: 5rem;
+}
+
+nav,
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+nav {
+    background-color: #e1e5e8;
+    box-shadow: 0px 2px 3px #0000c73b;
+}
+
+.nav-link {
+    margin-right: 2rem;   
+}
+
+
+/* SECTION ABOUT */
+
+.about {
+    margin-top: 2rem;
+}
+
+.title,
+.title-blue {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin: .2rem 0;
+}
+
+.title-blue {
+    color: #000194;
+}
+
+.about p {
+    font-size: 1.3rem;
+    line-height: 2rem;
+}
+
+.about a {
+    margin-right: 2rem;
+    font-weight: 700;
+}
+
+.title-about-link {
+    margin-bottom: 0;
+}
+
+.about-link {
+    margin-top: 0;
+}
+
+.bit-about-me img {
+    display: none;
+}
+
+
+/* MAIN */
+
+.projects-title {
+    font-size: 2rem;
+}
+
+#projects h3 {
+    font-size: 1.5rem;
+}
+
+#projects img {
+    margin-bottom: 5rem;
+    box-shadow:  2px 2px 7px #0000c73b;
+    max-width: 100%;
+}
+
+.back-top {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #e1e5e8
+}
+
+footer p {
+    font-size: 1rem;
+    text-align: center;
+    padding: .5rem 0;
+}
+
+
+/* RESPONSIVE LAYOUT */
+
+@media (min-width: 55em) {
+
+/* RESPONSIVE NAV */
+
+nav ul {
+    margin-right: 10rem;
+    font-size: 1.8rem;
+}
+
+/* RESPONSIVE ABOUT ME */
+
+.about {
+    display: flex;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-me {
+    max-width: 50%;
+}
+
+.title,
+.title-blue {
+    font-size: 4rem;
+}
+
+.about p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    margin-right: 2rem;
+}
+
+.bit-about-me {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bit-about-me p {
+    text-align: center;
+}
+
+.bit-about-me p {
+    font-size: 1.5rem;
+}
+
+.bit-about-me img {
+    box-shadow:  2px 2px 7px #0000c73b;
+    display: block;
+}
+
+
+
+/* RESPONSIVE PROJECTS */
+
+    #projects {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .project-wrapper {
+        max-width: 30%;
+    }
+
+    .project-wrapper {
+        padding: 0 2rem;
+    }
+
+    .site-wrapper h2 {
+        font-size: 3rem;
+    }
+
+    #projects h3 {
+        text-align: center;
+    }
+}
