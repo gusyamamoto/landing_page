@@ -13,6 +13,10 @@ li {
     list-style: none;   
 }
 
+.educational {
+    font-size: .8rem;
+}
+
 /* LINKS STYLE */
 
 a,
@@ -80,12 +84,13 @@ nav {
 }
 
 .about a {
-    margin-right: 2rem;
+    margin: 0 1rem;
     font-weight: 700;
 }
 
 .title-about-link {
     margin-bottom: 0;
+    font-weight: 700;
 }
 
 .about-link {
@@ -101,10 +106,13 @@ nav {
 
 .projects-title {
     font-size: 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
 }
 
 #projects h3 {
     font-size: 1.5rem;
+    text-align: center;
 }
 
 #projects img {
@@ -206,9 +214,5 @@ nav ul {
 
     .site-wrapper h2 {
         font-size: 3rem;
-    }
-
-    #projects h3 {
-        text-align: center;
     }
 }
