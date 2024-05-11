@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/normalize-fwd.css">
     <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/fb2788b967.js" crossorigin="anonymous"></script>
     <title>Gustavo Landing Page</title>
 </head>
 
@@ -14,11 +15,11 @@
     <header>
         <nav class="nav-wrapper">
             <figure>
-                <a href="index.html"><img src="styles/Asset 2@3x.png" class="logo" alt="Logo Gustavo"></a>
+                <a href="index.html"><img src="styles/gustavo-logo.png" class="logo" alt="Logo Gustavo"></a>
             </figure>
-            <ul>
+            <ul class="project-list">
                 <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872/" target="_blank" class="nav-link">LinkedIn</a></li>
+                <li class="linkedin-link"><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872/" target="_blank" class="nav-link">LinkedIn</a></li>
                 <li><a href="mailto:gyamamoto1@my.bcit.ca" class="nav-link" target="_blank">Contact</a></li>
             </ul>
         </nav>
@@ -34,16 +35,15 @@
                     experiences working as a chef in Canada. I am passionate about creating useful design, solving
                     problems and learning new technologies. </p>
             </div>
-
-            <section class="bit-about-me">
+        
+            <div class="bit-about-me">
                 <img src="styles/resume-imag.png" alt="">
                 <p class="title-about-link">Here is a bit about me.</p>
-                <p class="about-link"><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872/"
-                        target="_blank">LinkedIn</a><span><a href="styles/resume.pdf" target="_blank">Resume</a></span>
+                <p><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872" target="_blank"><i class="fa-brands fa-linkedin"></i></a><span><a href="styles/resume.pdf" target="_blank"><i class="fa-solid fa-file"></i></a></span>
                 </p>
-            </section>
+            </div>
         </section>
-    </header>
+        </header>
 
     <main class="site-wrapper">
         <h2 class="projects-title">Here are some of my projects</h2>
@@ -86,14 +86,18 @@
             </div>
         </section>
 
-        <section>
+        <div>
             <a href="#top">
                 <p class="back-top">Back to top &#8593;</p>
             </a>
-        </section>
+        </div>
     </main>
     <footer>
-        <p>Copyright &copy Gustavo Yamamoto 2024</p>
+        <ul class="social-links">
+            <li class="social-link"><a href="https://www.linkedin.com/in/gustavo-yamamoto-bb914872/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            <li class="social-link"><a href="https://github.com/gusyamamoto" target="_blank"><i class="fab fa-github"></i></a></li>
+        </ul>
+        <p>&copy;Gustavo Yamamoto 2024</p>
         <p class="educational">*For educational purposes*</p>
     </footer>
 

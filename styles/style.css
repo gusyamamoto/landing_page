@@ -43,7 +43,7 @@ a:active {
 }
 
 nav,
-ul {
+.project-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +58,11 @@ nav {
 }
 
 .nav-link {
-    margin-right: 1rem;   
+    margin-right: 1.4rem;   
+}
+
+.linkedin-link {
+    display: none;
 }
 
 
@@ -70,7 +74,7 @@ nav {
 
 .title,
 .title-blue {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 800;
     margin: .2rem 0;
 }
@@ -80,7 +84,7 @@ nav {
 }
 
 .about p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 
@@ -96,14 +100,36 @@ nav {
 
 .about-link {
     margin-top: 0;
+    font-size: 5rem;
+}
+
+.bit-about-me p {
+    font-size: 1.8rem;
 }
 
 .bit-about-me img {
-    display: none;
+    box-shadow:  2px 2px 7px #0000c73b;
+    max-width: 60%;
+    margin: 3rem auto 0;
+}
+
+.bit-about-me {
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.bit-about-me p {
+    text-align: center;
 }
 
 
 /* MAIN */
+
+main {
+    border-top: .05rem solid #c9c9ff;
+}
 
 .projects-title {
     font-size: 2rem;
@@ -140,12 +166,24 @@ footer {
 footer p {
     font-size: 1rem;
     text-align: center;
-    padding: 1rem;
+    padding-bottom: .5rem;
     margin: 0;
 }
 
 .educational {
     font-size: .8rem;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+.social-link {
+    margin: 1rem;
+    font-size: 2.2rem;
+    
 }
 
 
@@ -156,8 +194,15 @@ footer p {
 /* RESPONSIVE NAV */
 
 nav ul {
-    margin-right: 1rem;
-    font-size: 1.8rem;
+    margin-right: 1rem;   
+}
+
+.project-list {
+    font-size: 2rem;
+}
+
+.linkedin-link {
+    display: block;
 }
 
 /* RESPONSIVE ABOUT ME */
@@ -183,26 +228,9 @@ nav ul {
     margin-right: 2rem;
 }
 
-.bit-about-me {
-    margin-left: 2rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .bit-about-me p {
-    text-align: center;
+    font-size: 2.2rem;
 }
-
-.bit-about-me p {
-    font-size: 1.5rem;
-}
-
-.bit-about-me img {
-    box-shadow:  2px 2px 7px #0000c73b;
-    display: block;
-}
-
 
 
 /* RESPONSIVE PROJECTS */
@@ -214,7 +242,7 @@ nav ul {
     }
 
     .project-wrapper {
-        max-width: 30%;
+        max-width: 50%;
     }
 
     .project-wrapper {
